@@ -47,7 +47,7 @@ If we can predict the age of toddlers with traits of ASD, this can help parents 
 
 When looking to predict age it is best to use the individual characteristics, although it will over-estimate by 7.17 months. QChat-10 scores best predict age, as QChat-10 scores increase by 1, age goes down by 1.30 months. There is no significant difference in average qchat-10 scores between those who were/were not born with jaundice (* *p* * = 0.72) and between sex (* *p* * = 0.09). White european and asian toddlers had the most significant difference in average qchat-10 scores (* *p* * < 0.05). 
 
-Limitations of our model include who was filling out the survey for the toddlers, there may have been some bias in the responses, e.g. social desirability bias.
+Limitations of our model include who was filling out the survey for the toddlers, there may have been some bias in the responses, e.g. social desirability bias. Another limitation are the responses used for the survey, using a likert scale rather than yes/no responses can better capture the child's behavior.
 
 Future models should include data such as extremely preterm babies, presence of other disorders, and parental information such as age and the presence of obesity and/or diabetes.
 
