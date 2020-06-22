@@ -4,7 +4,7 @@ By: Muriel Kosaka
 ## Introduction
 
 Autism Spectrum Disorder (ASD) is a neurodevelopmental disorder that affects communication and behavior. Early detection of ASD is beneficial for both the parent and the child. In this final project, I examined a dataset provided on Kaggle that included individual characteristics and features to determine ASD traits. These features included the QChat-10 which are 10 questions about the child’s behavior, and then individual characteristics such as sex, ethnicity, whether or not the child was born with Jaundice, if an immediate family member has ASD, and who completed the test. Scores 4 and above on the QChat-10 indicated that the child had traits of ASD. Using the features provided, I aimed to create a linear regression model to predict age.
-If we can predict the age of toddlers with traits of ASD, this can help parents look out for the early signs and have their child tested and receive treatment earlier.
+If we can predict the age of toddlers with traits of ASD, this can help parents look out for the early signs and have their child tested and receive treatment earlier. See **What's Age Got To Do With It?.pdf** for Google Slides Presentation.
 
 ## Process
 
@@ -50,10 +50,4 @@ When looking to predict age it is best to use the individual characteristics, al
 Limitations of our model include who was filling out the survey for the toddlers, there may have been some bias in the responses, e.g. social desirability bias. Another limitation are the responses used for the survey, using a likert scale rather than yes/no responses can better capture the child's behavior.
 
 Future models should include data such as extremely preterm babies, presence of other disorders, and parental information such as age and the presence of obesity and/or diabetes.
-
-
-
-
-
-
 
