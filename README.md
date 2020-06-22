@@ -8,19 +8,17 @@ If we can predict the age of toddlers with traits of ASD, this can help parents 
 
 ## Process
 
-1) See project_regression.ipynb: Using the dataset, Toddler Autism dataset July 2018.csv from Kaggle, I cleaned the data, conducted necessary EDA and created three multi-linear regression models using feature selection methods: 
-
-        A) Using questions A1-A10 from QChat-10 to predict age
-        B) Using interactions of questions A1-A10 from QChat-10 to predict age
-        C) Using individual characteristics to predict age
+1) See **project_regression.ipynb**: Using the dataset, Toddler Autism dataset July 2018.csv from Kaggle, I cleaned the data, conducted necessary EDA and created three multi-linear regression models using feature selection methods: 
+        - Using questions A1-A10 from QChat-10 to predict age
+        - Using interactions of questions A1-A10 from QChat-10 to predict age
+        - Using individual characteristics to predict age
         
-2) See project_hypothesis_test.ipynb: Then based off my results from the linear regression models, I conducted three hypothesis tests:
-
-        A) Independent samples t-test between Sex on QChat-10 scores: results were not 
+2) See **project_hypothesis_test.ipynb**: Then based off my results from the linear regression models, I conducted three hypothesis tests:
+        - Independent samples t-test between Sex on QChat-10 scores: results were not 
             significant. 
-        B) Independent samples t-test between toddlers who were/were not born with 
+        - Independent samples t-test between toddlers who were/were not born with 
             Jaundice on QChat-10 scores: results were not significant.
-        C) One way ANOVA between ethnicities on QChat-10 scores: results were 
+        - One way ANOVA between ethnicities on QChat-10 scores: results were 
             significant between White European and Asian.
 
 
@@ -28,21 +26,21 @@ If we can predict the age of toddlers with traits of ASD, this can help parents 
 
 ### Data Collection:
 
-Pandas
+- Pandas
 
 ### Data Cleaning and Visualization:
 
-Matplotlib
-Seaborn
-Pandas
-SciPy
-Sklearn
-NumPy
-Statsmodels
+- Matplotlib
+- Seaborn
+- Pandas
+- SciPy
+- Sklearn
+- NumPy
+- Statsmodels
 
 ## Findings and Limitations
 
-When looking to predict age it is best to use the individual characteristics, although it will over-estimate by 7.17 months. QChat-10 scores best predict age, as QChat-10 scores increase by 1, age goes down by 1.30 months. There is no significant difference in average qchat-10 scores between those who were/were not born with jaundice (p=0.72) and between sex (p=0.09). White european and asian toddlers had the most significant difference in average qchat-10 scores (p<0.05). 
+When looking to predict age it is best to use the individual characteristics, although it will over-estimate by 7.17 months. QChat-10 scores best predict age, as QChat-10 scores increase by 1, age goes down by 1.30 months. There is no significant difference in average qchat-10 scores between those who were/were not born with jaundice (* *p* * = 0.72) and between sex (* *p* * = 0.09). White european and asian toddlers had the most significant difference in average qchat-10 scores (* *p* * < 0.05). 
 
 Limitations of our model include who was filling out the survey for the toddlers, there may have been some bias in the responses, e.g. social desirability bias.
 
