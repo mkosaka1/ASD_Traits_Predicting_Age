@@ -9,17 +9,22 @@ If we can predict the age of toddlers with traits of ASD, this can help parents 
 ## Process
 
 1) See **project_regression.ipynb**: Using the dataset, Toddler Autism dataset July 2018.csv from Kaggle, I cleaned the data, conducted necessary EDA and created three multi-linear regression models using feature selection methods: 
-        - Using questions A1-A10 from QChat-10 to predict age
-        - Using interactions of questions A1-A10 from QChat-10 to predict age
-        - Using individual characteristics to predict age
+
+    - Using questions A1-A10 from QChat-10 to predict age
+    - Using interactions of questions A1-A10 from QChat-10 to 
+        predict age
+    - Using individual characteristics to predict age
         
 2) See **project_hypothesis_test.ipynb**: Then based off my results from the linear regression models, I conducted three hypothesis tests:
-        - Independent samples t-test between Sex on QChat-10 scores: results were not 
-            significant. 
-        - Independent samples t-test between toddlers who were/were not born with 
-            Jaundice on QChat-10 scores: results were not significant.
-        - One way ANOVA between ethnicities on QChat-10 scores: results were 
-            significant between White European and Asian.
+
+    - Independent samples t-test between Sex on QChat-10 
+        scores: results were not significant. 
+    - Independent samples t-test between toddlers who 
+        were/were not born with Jaundice on QChat-10 scores: 
+        results were not significant.
+    - One way ANOVA between ethnicities on QChat-10 scores: 
+        results were significant between White European and 
+        Asian.
 
 
 ## Libraries
