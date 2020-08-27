@@ -1,9 +1,9 @@
-# Module 2 Final Project
+# What's Age Got To Do With It?
 By: Muriel Kosaka
 
 ## Introduction
 
-Autism Spectrum Disorder (ASD) is a neurodevelopmental disorder that affects communication and behavior. Early detection of ASD is beneficial for both the parent and the child. In this final project, I examined a dataset provided on Kaggle that included individual characteristics and features to determine ASD traits. These features included the QChat-10 which are 10 questions about the child’s behavior, and then individual characteristics such as sex, ethnicity, whether or not the child was born with Jaundice, if an immediate family member has ASD, and who completed the test. Scores 4 and above on the QChat-10 indicated that the child had traits of ASD. Using the features provided, I aimed to create a linear regression model to predict age.
+Autism Spectrum Disorder (ASD) is a neurodevelopmental disorder that affects communication and behavior. Early detection of ASD is beneficial for both the parent and the child. In this final project, I examined a dataset provided on [Kaggle](https://www.kaggle.com/fabdelja/autism-screening-for-toddlers) that included individual characteristics and features to determine ASD traits. These features included the QChat-10 which are 10 questions about the child’s behavior, and then individual characteristics such as sex, ethnicity, whether or not the child was born with Jaundice, if an immediate family member has ASD, and who completed the test. Scores 4 and above on the QChat-10 indicated that the child had traits of ASD. Using the features provided, I aimed to create a linear regression model to predict age.
 If we can predict the age of toddlers with traits of ASD, this can help parents look out for the early signs and have their child tested and receive treatment earlier. See **What's Age Got To Do With It?.pdf** for Google Slides Presentation.
 
 ## Process
@@ -11,9 +11,12 @@ If we can predict the age of toddlers with traits of ASD, this can help parents 
 1) See **project_regression.ipynb**: Using the dataset, Toddler Autism dataset July 2018.csv from Kaggle, I cleaned the data, conducted necessary EDA and created three multi-linear regression models using feature selection methods: 
 
     - Using questions A1-A10 from QChat-10 to predict age
+        ![alt text](https://github.com/mkosaka1/Module_2_Project/blob/master/project_regression_png_files/A1_A10_FinalModel.png)
     - Using interactions of questions A1-A10 from QChat-10 to 
         predict age
+        ![alt text](https://github.com/mkosaka1/Module_2_Project/blob/master/project_regression_png_files/Interaction_FinalModel.png)
     - Using individual characteristics to predict age
+        ![alt text](https://github.com/mkosaka1/Module_2_Project/blob/master/project_regression_png_files/Individual_Characteristics_FinalModel.png)
         
 2) See **project_hypothesis_test.ipynb**: Then based off my results from the linear regression models, I conducted three hypothesis tests:
 
