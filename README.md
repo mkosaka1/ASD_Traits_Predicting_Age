@@ -22,9 +22,11 @@ If we can predict the age of toddlers with traits of ASD, this can help parents 
 
     - Independent samples t-test between Sex on QChat-10 
         scores: results were not significant. 
+        ![alt text](https://github.com/mkosaka1/Module_2_Project/blob/master/project_hypothesis_tests_png_files/sex_qchat_score.png)
     - Independent samples t-test between toddlers who 
         were/were not born with Jaundice on QChat-10 scores: 
         results were not significant.
+        ![alt text]()
     - One way ANOVA between ethnicities on QChat-10 scores: 
         results were significant between White European and 
         Asian.
