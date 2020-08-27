@@ -8,17 +8,17 @@ If we can predict the age of toddlers with traits of ASD, this can help parents 
 
 ## Process
 
-1) See **project_regression.ipynb**: Using the dataset, Toddler Autism dataset July 2018.csv from Kaggle, I cleaned the data, conducted necessary EDA and created three multi-linear regression models using feature selection methods: 
+1) See **1. Regression.ipynb**: Using the dataset, Toddler Autism dataset July 2018.csv from Kaggle, I cleaned the data, conducted necessary EDA and created three multi-linear regression models using feature selection methods: 
 
     - Using questions A1-A10 from QChat-10 to predict age
-        ![alt text](https://github.com/mkosaka1/Module_2_Project/blob/master/project_regression_png_files/A1_A10_FinalModel.png)
+        ![alt text](https://github.com/mkosaka1/Module_2_Project/blob/master/Photos/project_regression_png_files/A1_A10_FinalModel.png)
     - Using interactions of questions A1-A10 from QChat-10 to 
         predict age
-        ![alt text](https://github.com/mkosaka1/Module_2_Project/blob/master/project_regression_png_files/Interaction_FinalModel.png)
+        ![alt text](https://github.com/mkosaka1/Module_2_Project/blob/master/Photos/project_regression_png_files/Interaction_FinalModel.png)
     - Using individual characteristics to predict age
-        ![alt text](https://github.com/mkosaka1/Module_2_Project/blob/master/project_regression_png_files/Individual_Characteristics_FinalModel.png)
+        ![alt text](https://github.com/mkosaka1/Module_2_Project/blob/master/Photos/project_regression_png_files/Individual_Characteristics_FinalModel.png)
         
-2) See **project_hypothesis_test.ipynb**: Then based off my results from the linear regression models, I conducted three hypothesis tests:
+2) See **2. Hypothesis_test.ipynb**: Then based off my results from the linear regression models, I conducted three hypothesis tests:
 
     - Independent samples t-test between Sex on QChat-10 
         scores: results were not significant. 
